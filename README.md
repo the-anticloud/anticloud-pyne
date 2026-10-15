@@ -2,9 +2,7 @@
 
 > .. |image| image:: https://github.com/pyne/pyne/blob/develop/img/pyne_icon_small.png :class: centered :width: 42px
 
-**Category:** NUCLEAR · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/ktbyers/pynet · **Pinned commit:** `7e621773cb1b2251f3d68222c8e5b42fb958cbd1` · **Vendor:** Anticloud FZ LLE
-
-> **Note:** this package vendors `https://github.com/ktbyers/pynet` as the implementation for the `PYNE` slot. The vendored repository name differs from the package name; the pin above is the exact commit vendored here.
+**Category:** NUCLEAR · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/pyne/pyne · **Pinned commit:** `e52190ae881b75c5584fb791a4029325881eb14c` · **Vendor:** Anticloud FZ LLE
 
 ## What This Project Is
 
@@ -62,7 +60,7 @@ The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The 
 SHA3-256 of `BENCH.json`:
 
 ```
-ad45e97fc4b5f46bce6939d928aba841d1e77b37882503a86e8840274a6d0587
+4f2e3db455495780b601d38b98fa80e07cdaee435877d8ea1267cf7b46e1cfa3
 ```
 
 Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.

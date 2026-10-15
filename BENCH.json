@@ -540,10 +540,10 @@
  "version": "1.0.0",
  "source": {
   "git": {
-   "head": "7e621773cb1b2251f3d68222c8e5b42fb958cbd1",
-   "url": "https://github.com/ktbyers/pynet",
-   "branch": "master",
-   "sha_verified_from": "GitHub API commits/master | unified 2026-10-14 (API-exists + content/clone anchor)"
+   "url": "https://github.com/pyne/pyne",
+   "head": "e52190ae881b75c5584fb791a4029325881eb14c",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/ktbyers/pynet"
   }
  }
 }
