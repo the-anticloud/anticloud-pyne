@@ -1,0 +1,186 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:42182962-833b-53e7-98ff-8673ee300ddf",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T16:38:27Z",
+    "component": {
+      "type": "application",
+      "name": "PYNE",
+      "version": "unknown",
+      "bom-ref": "pkg:generic/anticloud/PYNE@unknown",
+      "purl": "pkg:generic/anticloud/PYNE@unknown",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": ""
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/pyne/pyne.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "MOAB",
+      "version": "unspecified",
+      "purl": "pkg:generic/MOAB",
+      "bom-ref": "native/MOAB@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "DAGMC",
+      "version": "unspecified",
+      "purl": "pkg:generic/DAGMC",
+      "bom-ref": "native/DAGMC@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "PythonInterp",
+      "version": "unspecified",
+      "purl": "pkg:generic/PythonInterp",
+      "bom-ref": "native/PythonInterp@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "PythonLibs",
+      "version": "unspecified",
+      "purl": "pkg:generic/PythonLibs",
+      "bom-ref": "native/PythonLibs@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Numpy",
+      "version": "unspecified",
+      "purl": "pkg:generic/Numpy",
+      "bom-ref": "native/Numpy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "F2py",
+      "version": "unspecified",
+      "purl": "pkg:generic/F2py",
+      "bom-ref": "native/F2py@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "deleting",
+      "version": "unspecified",
+      "purl": "pkg:pypi/deleting",
+      "bom-ref": "pypi/deleting@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "-DCMAKE_INSTALL_PREFIX",
+      "version": "=",
+      "purl": "pkg:pypi/-dcmake-install-prefix@",
+      "bom-ref": "pypi/-DCMAKE_INSTALL_PREFIX@="
+    },
+    {
+      "type": "library",
+      "name": "-DCMAKE_BUILD_TYPE",
+      "version": "=",
+      "purl": "pkg:pypi/-dcmake-build-type@",
+      "bom-ref": "pypi/-DCMAKE_BUILD_TYPE@="
+    },
+    {
+      "type": "library",
+      "name": "-DHDF5_ROOT",
+      "version": "=",
+      "purl": "pkg:pypi/-dhdf5-root@",
+      "bom-ref": "pypi/-DHDF5_ROOT@="
+    },
+    {
+      "type": "library",
+      "name": "-DHDF5_LIBRARIES",
+      "version": "={0}/lib/libhdf5{1};{0}/lib/libhdf5_hl{1}",
+      "purl": "pkg:pypi/-dhdf5-libraries@{0}/lib/libhdf5{1};{0}/lib/libhdf5_hl{1}",
+      "bom-ref": "pypi/-DHDF5_LIBRARIES@={0}/lib/libhdf5{1};{0}/lib/libhdf5_hl{1}"
+    },
+    {
+      "type": "library",
+      "name": "-DHDF5_LIBRARY_DIRS",
+      "version": "=",
+      "purl": "pkg:pypi/-dhdf5-library-dirs@",
+      "bom-ref": "pypi/-DHDF5_LIBRARY_DIRS@="
+    },
+    {
+      "type": "library",
+      "name": "-DHDF5_INCLUDE_DIRS",
+      "version": "=",
+      "purl": "pkg:pypi/-dhdf5-include-dirs@",
+      "bom-ref": "pypi/-DHDF5_INCLUDE_DIRS@="
+    },
+    {
+      "type": "library",
+      "name": "-DWITH_MOAB",
+      "version": "=ON",
+      "purl": "pkg:pypi/-dwith-moab@ON",
+      "bom-ref": "pypi/-DWITH_MOAB@=ON"
+    },
+    {
+      "type": "library",
+      "name": "-DMOAB_ROOT",
+      "version": "=",
+      "purl": "pkg:pypi/-dmoab-root@",
+      "bom-ref": "pypi/-DMOAB_ROOT@="
+    },
+    {
+      "type": "library",
+      "name": "-DWITH_DAGMC",
+      "version": "=ON",
+      "purl": "pkg:pypi/-dwith-dagmc@ON",
+      "bom-ref": "pypi/-DWITH_DAGMC@=ON"
+    },
+    {
+      "type": "library",
+      "name": "-DDAGMC_ROOT",
+      "version": "=",
+      "purl": "pkg:pypi/-ddagmc-root@",
+      "bom-ref": "pypi/-DDAGMC_ROOT@="
+    },
+    {
+      "type": "library",
+      "name": "-DDEPS_ROOT_DIR",
+      "version": "=",
+      "purl": "pkg:pypi/-ddeps-root-dir@",
+      "bom-ref": "pypi/-DDEPS_ROOT_DIR@="
+    },
+    {
+      "type": "library",
+      "name": "-DPYNE_FAST_COMPILE",
+      "version": "=",
+      "purl": "pkg:pypi/-dpyne-fast-compile@",
+      "bom-ref": "pypi/-DPYNE_FAST_COMPILE@="
+    },
+    {
+      "type": "library",
+      "name": "-DENABLE_SPATIAL_SOLVERS",
+      "version": "=",
+      "purl": "pkg:pypi/-denable-spatial-solvers@",
+      "bom-ref": "pypi/-DENABLE_SPATIAL_SOLVERS@="
+    },
+    {
+      "type": "library",
+      "name": "-DPYTHON_EXECUTABLE",
+      "version": "=",
+      "purl": "pkg:pypi/-dpython-executable@",
+      "bom-ref": "pypi/-DPYTHON_EXECUTABLE@="
+    }
+  ]
+}
