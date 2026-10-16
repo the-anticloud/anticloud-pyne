@@ -543,7 +543,7 @@
    "url": "https://github.com/pyne/pyne",
    "head": "e52190ae881b75c5584fb791a4029325881eb14c",
    "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
-   "previous_substitute": "https://github.com/ktbyers/pynet"
+   "previous_substitute": "https://github.com/pyne/pyne"
   }
  }
 }
